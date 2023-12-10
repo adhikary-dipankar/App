@@ -1,0 +1,41 @@
+
+.rectangle {
+    width: 100px;
+    height: 120px;
+    display: block;
+    margin: 0 auto; /* Center the image */
+    border-radius: 10px; /* Round the image */
+    overflow: hidden; /* Ensure rounding is applied */
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Custom Card Styles */
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* List Styles */
+.list-unstyled {
+    list-style: none;
+    padding: 0;
+}
+
+.list-unstyled i {
+    margin-right: 5px;
+    color: #17a2b8; /* Bootstrap primary color */
+}
+
+/* Heading Styles */
+h2, h3 {
+    color: #17a2b8; /* Bootstrap primary color */
+}
+
+/* Background Color for Card */
+.bg-card {
+    background-color: #f8f9fa; /* Light gray background */
+}
