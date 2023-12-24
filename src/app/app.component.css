@@ -1,25 +1,27 @@
-body {
+header {
       margin: 0;
       font-family: Arial, sans-serif;
+      margin: 4px;
+      padding: 5px;
     }
 
     nav {
       background-color: #17a2b8;
       color: #fff;
-      padding: 15px;
+      padding: 5px;
       display: flex;
       justify-content: space-between;
       align-items: center;
     }
 
     nav div {
-      display: flex;
-      align-items: center;
+      display: flexbox;
+      text-align: center;
     }
 
     nav a {
       color: #fff;
       text-decoration: none;
-      margin: 0 15px;
+      margin: 0 5px;
       font-size: 18px;
     }
