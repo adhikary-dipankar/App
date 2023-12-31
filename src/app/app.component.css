@@ -10,19 +10,19 @@ header {
     } 
 
     nav {
-      background-color: #17a2b8;
+      background-color: #16a3ca;
       color: #fff;
       padding: 4px;
       align-items: center;
     }
 
     nav div {
-      text-align: right;
+      text-align: center;
     }
 
     nav a {
       color: #fff;
       text-decoration: none;
-      margin: 0 5px;
-      font-size: 15px;
+      margin: 0 10px;
+      font-size: 18px;
     }
